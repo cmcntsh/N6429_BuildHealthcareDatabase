@@ -1,0 +1,24 @@
+table_name,field_name,definition,data_type,key_or_constraint,allows_null,example_value
+clinics,clinic_id,Unique synthetic clinic identifier,TEXT,PRIMARY KEY,No,C01
+clinics,clinic_name,Clinic display name,TEXT,NOT NULL; UNIQUE,No,Northside Clinic
+clinics,region,Program region assigned to the clinic,TEXT,NOT NULL,No,North
+patients,patient_id,Unique synthetic patient identifier,TEXT,PRIMARY KEY,No,P001
+patients,birth_year,Synthetic patient birth year,INTEGER,NOT NULL; CHECK 1900–2026,No,1948
+patients,preferred_language,Documented preferred language,TEXT,NOT NULL,No,English
+patients,social_needs_flag,Indicator that one or more social needs were documented,INTEGER,"NOT NULL; CHECK IN (0, 1)",No,1
+encounters,encounter_id,Unique synthetic encounter identifier,TEXT,PRIMARY KEY,No,E001
+encounters,patient_id,Patient associated with the encounter,TEXT,NOT NULL; FOREIGN KEY → patients.patient_id,No,P001
+encounters,clinic_id,Clinic associated with the encounter,TEXT,NOT NULL; FOREIGN KEY → clinics.clinic_id,No,C01
+encounters,encounter_date,Date of the encounter in ISO format,TEXT,NOT NULL,No,2026-08-03
+encounters,visit_type,Type of encounter or transition,TEXT,NOT NULL,No,Primary care
+referrals,referral_id,Unique synthetic referral identifier,TEXT,PRIMARY KEY,No,R001
+referrals,encounter_id,Encounter that created the referral,TEXT,NOT NULL; FOREIGN KEY → encounters.encounter_id,No,E001
+referrals,service_type,Service requested by the referral,TEXT,NOT NULL,No,Medication review
+referrals,referral_date,Date the referral was created in ISO format,TEXT,NOT NULL,No,2026-08-03
+referrals,priority,Program-assigned referral priority,TEXT,"NOT NULL; CHECK IN ('Routine', 'High')",No,Routine
+referrals,due_date,Assigned follow-up due date in ISO format,TEXT,NOT NULL,No,2026-08-17
+followups,followup_id,Unique synthetic follow-up identifier,TEXT,PRIMARY KEY,No,F001
+followups,referral_id,Referral associated with the follow-up record,TEXT,NOT NULL; UNIQUE; FOREIGN KEY → referrals.referral_id,No,R001
+followups,completion_date,Completion date in ISO format; blank when pending,TEXT,None,Yes,2026-08-13
+followups,outcome,Follow-up status relative to the assigned due date,TEXT,"NOT NULL; CHECK IN ('Pending', 'Completed on time', 'Completed late')",No,Completed on time
+followups,contact_attempts,Number of documented contact attempts,INTEGER,NOT NULL; CHECK >= 0,No,1
