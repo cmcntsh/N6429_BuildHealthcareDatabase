@@ -6,7 +6,7 @@ We did this in a previous assignment. You can review how to fork a repository at
 
 ## Step 2: Download the Google Colab notebook and data files from this repository
 
-![Right-Click Save Link As to Download File](https://github.com/cmcntsh/N6429_BuildHealthcareDatabase/raw/refs/heads/main/Week12_Database_Colab_new.ipynb)
+![Notebook file Right-Click Save Link As to Download File](https://github.com/cmcntsh/N6429_BuildHealthcareDatabase/raw/refs/heads/main/Week12_Database_Colab_new.ipynb)
 
 (If you just use a regular click on the link above, the raw JSON file will display in your browser window.)
 
