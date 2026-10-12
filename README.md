@@ -6,15 +6,27 @@ We did this in a previous assignment. You can review how to fork a repository at
 
 ## Step 2: Download the Google Colab notebook and data files from this repository
 
-![Right-Click Save Link As to Download File](https://github.com/cmcntsh/N6429_StructuredDataPython/raw/refs/heads/main/Week10_Structured_Data_Starter.ipynb)
+![Right-Click Save Link As to Download File](https://github.com/cmcntsh/N6429_BuildHealthcareDatabase/raw/refs/heads/main/Week12_Database_Colab (1).ipynb)
 
 (If you just use a regular click on the link above, the raw JSON file will display in your browser window.)
 
-![Right-Click Save Link As to Download File](https://github.com/cmcntsh/N6429_StructuredDataPython/raw/refs/heads/main/Week10_Structured_Referrals.json)
+![clinics.csv Right-Click Save Link As to Download File](https://github.com/cmcntsh/N6429_BuildHealthcareDatabase/raw/refs/heads/main/clinics.csv)
 
 (If you just use a regular click on the link above, the raw JSON file will display in your browser window.)
 
-![Right-Click Save Link As to Download File](https://github.com/cmcntsh/N6429_StructuredDataPython/raw/refs/heads/main/Week10_Structured_Referrals.csv)
+![encounters.csv Right-Click Save Link As to Download File](https://github.com/cmcntsh/N6429_BuildHealthcareDatabase/raw/refs/heads/main/encounters.csv)
+
+(If you just use a regular click on the link above, the raw CSV file will display in your browser window.)
+
+![followups.csv Right-Click Save Link As to Download File](https://github.com/cmcntsh/N6429_BuildHealthcareDatabase/raw/refs/heads/main/followups.csv)
+
+(If you just use a regular click on the link above, the raw CSV file will display in your browser window.)
+
+![patients.csv Right-Click Save Link As to Download File](https://github.com/cmcntsh/N6429_BuildHealthcareDatabase/raw/refs/heads/main/patients.csv)
+
+(If you just use a regular click on the link above, the raw CSV file will display in your browser window.)
+
+![referrals.csv Right-Click Save Link As to Download File](https://github.com/cmcntsh/N6429_BuildHealthcareDatabase/raw/refs/heads/main/referrals.csv)
 
 (If you just use a regular click on the link above, the raw CSV file will display in your browser window.)
 
