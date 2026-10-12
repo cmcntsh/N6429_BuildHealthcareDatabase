@@ -1,0 +1,41 @@
+followup_id,referral_id,completion_date,outcome,contact_attempts
+F001,R001,2026-08-13,Completed on time,1
+F002,R002,2026-08-18,Completed on time,2
+F003,R003,2026-08-14,Completed on time,3
+F004,R004,2026-08-21,Completed on time,1
+F005,R005,2026-08-26,Completed late,2
+F006,R006,2026-08-23,Completed late,3
+F007,R007,,Pending,3
+F008,R008,2026-09-03,Completed late,2
+F009,R009,2026-09-01,Completed late,3
+F010,R010,2026-08-31,Completed on time,1
+F011,R011,2026-09-05,Completed on time,2
+F012,R012,2026-09-01,Completed on time,3
+F013,R013,2026-09-08,Completed on time,1
+F014,R014,,Pending,3
+F015,R015,,Pending,3
+F016,R016,2026-09-16,Completed on time,1
+F017,R017,2026-09-21,Completed late,2
+F018,R018,2026-09-19,Completed late,3
+F019,R019,2026-09-18,Completed on time,1
+F020,R020,2026-09-23,Completed on time,2
+F021,R021,,Pending,3
+F022,R022,2026-09-26,Completed on time,1
+F023,R023,2026-10-01,Completed late,2
+F024,R024,2026-09-28,Completed late,3
+F025,R025,2026-10-04,Completed on time,1
+F026,R026,2026-10-09,Completed late,2
+F027,R027,2026-10-07,Completed late,3
+F028,R028,,Pending,3
+F029,R029,2026-10-11,Completed on time,2
+F030,R030,,Pending,3
+F031,R031,2026-10-14,Completed on time,1
+F032,R032,2026-10-19,Completed late,2
+F033,R033,2026-10-16,Completed late,3
+F034,R034,2026-10-22,Completed on time,1
+F035,R035,,Pending,3
+F036,R036,2026-10-25,Completed late,3
+F037,R037,2026-10-24,Completed on time,1
+F038,R038,2026-10-29,Completed on time,2
+F039,R039,2026-10-25,Completed on time,3
+F040,R040,2026-11-01,Completed on time,1

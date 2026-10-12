@@ -1,0 +1,41 @@
+referral_id,encounter_id,service_type,referral_date,priority,due_date
+R001,E001,Medication review,2026-08-03,Routine,2026-08-17
+R002,E002,Social work,2026-08-05,Routine,2026-08-19
+R003,E003,Nutrition,2026-08-07,High,2026-08-14
+R004,E004,Care coordination,2026-08-09,Routine,2026-08-23
+R005,E005,Medication review,2026-08-11,Routine,2026-08-25
+R006,E006,Social work,2026-08-13,High,2026-08-20
+R007,E007,Nutrition,2026-08-15,Routine,2026-08-29
+R008,E008,Care coordination,2026-08-17,Routine,2026-08-31
+R009,E009,Medication review,2026-08-19,High,2026-08-26
+R010,E010,Social work,2026-08-21,Routine,2026-09-04
+R011,E011,Nutrition,2026-08-23,Routine,2026-09-06
+R012,E012,Care coordination,2026-08-25,High,2026-09-01
+R013,E013,Medication review,2026-08-27,Routine,2026-09-10
+R014,E014,Social work,2026-08-29,Routine,2026-09-12
+R015,E015,Nutrition,2026-08-31,High,2026-09-07
+R016,E016,Care coordination,2026-09-02,Routine,2026-09-16
+R017,E017,Medication review,2026-09-04,Routine,2026-09-18
+R018,E018,Social work,2026-09-06,High,2026-09-13
+R019,E019,Nutrition,2026-09-08,Routine,2026-09-22
+R020,E020,Care coordination,2026-09-10,Routine,2026-09-24
+R021,E021,Medication review,2026-09-12,High,2026-09-19
+R022,E022,Social work,2026-09-14,Routine,2026-09-28
+R023,E023,Nutrition,2026-09-16,Routine,2026-09-30
+R024,E024,Care coordination,2026-09-18,High,2026-09-25
+R025,E025,Medication review,2026-09-20,Routine,2026-10-04
+R026,E026,Social work,2026-09-22,Routine,2026-10-06
+R027,E027,Nutrition,2026-09-24,High,2026-10-01
+R028,E028,Care coordination,2026-09-26,Routine,2026-10-10
+R029,E029,Medication review,2026-09-28,Routine,2026-10-12
+R030,E030,Social work,2026-09-30,High,2026-10-07
+R031,E031,Nutrition,2026-10-02,Routine,2026-10-16
+R032,E032,Care coordination,2026-10-04,Routine,2026-10-18
+R033,E033,Medication review,2026-10-06,High,2026-10-13
+R034,E034,Social work,2026-10-08,Routine,2026-10-22
+R035,E035,Nutrition,2026-10-10,Routine,2026-10-24
+R036,E036,Care coordination,2026-10-12,High,2026-10-19
+R037,E037,Medication review,2026-10-14,Routine,2026-10-28
+R038,E038,Social work,2026-10-16,Routine,2026-10-30
+R039,E039,Nutrition,2026-10-18,High,2026-10-25
+R040,E040,Care coordination,2026-10-20,Routine,2026-11-03
